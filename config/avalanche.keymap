@@ -6,7 +6,7 @@
 
 
 / { 
-led_strip { chain-length = <31>; };
+
     behaviors {
         bhm: balanced_homerow_mods {
             compatible = "zmk,behavior-hold-tap";
