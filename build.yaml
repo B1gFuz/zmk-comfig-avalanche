@@ -13,8 +13,9 @@
 #
 ---
 include:
-  - board: promicro
+  - board: nRF52840 M.2 Module
     shield: sofle_left
-  - board: promicro
+  - board: nRF52840 M.2 Module
     shield: sofle_right
+
 
