@@ -111,9 +111,6 @@
 &trans  &trans      &trans      &trans            &trans      &trans      &trans  &trans  &trans  &trans  &trans  &kp RC(LEFT)  &kp RC(DOWN)  &kp RC(RIGHT)  &trans  &trans
         &trans      &trans      &trans            &trans      &trans                      &trans  &trans  &trans  &trans        &trans
             
-&led_strip {
-    chain-length = <21>;
-};
           >;
         };
     };
