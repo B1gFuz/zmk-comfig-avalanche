@@ -25,7 +25,10 @@
             tapping-term-ms = <250>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
-        };
+    };
+    &led_strip {
+    chain-length = <21>;
+      };
     };
 
     keymap {
