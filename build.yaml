@@ -13,7 +13,8 @@
 #
 ---
 include:
-  - board: nice_nano_v2
+  - board: promicro
     shield: sofle_left
-  - board: nice_nano_v2
+  - board: promicro
     shield: sofle_right
+
