@@ -26,21 +26,6 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
-
-    macros {
-        SBH: date {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(S) &kp LS(B) &kp LS(H) &kp ENTER>;
-            label = "DATE";
-        };
-
-        INITIALRELEASE: INITIALRELEASE {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp LS(I) &kp LS(N) &kp LS(I) &kp LS(T) &kp LS(I) &kp LS(A) &kp LS(L) &kp SPACE &kp LS(R) &kp LS(E) &kp LS(L) &kp LS(E) &kp LS(A) &kp LS(S) &kp LS(E) &kp SPACE &kp LS(I) &kp LS(N) &kp SPACE &kp LS(A) &kp LS(C) &kp LS(C) &kp LS(O) &kp LS(R) &kp LS(D) &kp LS(A) &kp LS(N) &kp LS(C) &kp LS(E) &kp SPACE &kp LS(W) &kp LS(I) &kp LS(T) &kp LS(H) &kp SPACE &kp LS(N) &kp LS(E) &kp LS(W) &kp SPACE &kp LS(D) &kp LS(R) &kp LS(A) &kp LS(W) &kp LS(I) &kp LS(N) &kp LS(G) &kp RET &kp LS(S) &kp LS(T) &kp LS(A) &kp LS(N) &kp LS(D) &kp LS(A) &kp LS(R) &kp LS(D) &kp ENTER>;
-            label = "INITIALRELEASE";
-        };
     };
 
     keymap {
