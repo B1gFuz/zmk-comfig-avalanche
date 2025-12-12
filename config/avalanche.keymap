@@ -28,7 +28,9 @@
             bindings = <&kp>, <&kp>;
         };
     };
-
+&led_strip {
+    chain-length = <21>;
+};
     macros {
         SBH: date {
             compatible = "zmk,behavior-macro";
