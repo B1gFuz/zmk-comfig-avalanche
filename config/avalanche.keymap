@@ -108,8 +108,7 @@
 &trans  &trans      &trans      &gresc            &trans      &trans      &trans                  &trans  &trans  &kp RC(UP)    &trans        &trans         &trans  &trans
 &trans  &trans      &trans      &trans            &trans      &trans      &trans  &trans  &trans  &trans  &trans  &kp RC(LEFT)  &kp RC(DOWN)  &kp RC(RIGHT)  &trans  &trans
         &trans      &trans      &trans            &trans      &trans                      &trans  &trans  &trans  &trans        &trans
-            
-          >;
+            >;
         };
     };
 };
