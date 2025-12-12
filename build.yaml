@@ -13,10 +13,11 @@
 #
 ---
 include:
-  - board: nRF52840 M.2
+  - board: nRF52840 M.2 Module
     shield: AVALANCHE_left
-  - board: nRF52840 M.2
+  - board: nRF52840 M.2 Module
     shield: AVALANCHE_right
+
 
 
 
