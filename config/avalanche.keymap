@@ -6,6 +6,10 @@
 #include <dt-bindings/zmk/rgb.h>
 
 / {
+
+    &led_strip {
+    chain-length = <32>;
+};
     behaviors {
         bhm: balanced_homerow_mods {
             compatible = "zmk,behavior-hold-tap";
@@ -97,4 +101,5 @@
             >;
         };
     };
+};
 };
