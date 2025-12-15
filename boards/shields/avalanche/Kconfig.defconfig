@@ -41,3 +41,7 @@ endchoice
 endif # LVGL
 
 endif
+
+CONFIG_ZMK_RGB_UNDERGLOW
+    bool
+
