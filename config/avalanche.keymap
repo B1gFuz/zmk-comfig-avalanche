@@ -68,11 +68,11 @@
 
         NAVIGATION {
             bindings = <
-&to 0           &tog 3          &trans           &trans    &trans     &kp K_SCROLL_UP                       &trans  &trans  &trans  &trans  &trans  &trans
-&mmv MOVE_UP    &trans          &kp HOME         &trans    &kp END    &kp K_SCROLL_DOWN                     &trans  &trans  &trans  &trans  &trans  &trans
-&mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp LALT  &kp UP     &kp RCTRL          &kp PG_UP                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&mkp LCLK       &mkp RCLK       &kp LEFT         &kp DOWN  &kp RIGHT  &kp PG_DN          &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                &trans          &trans           &trans    &trans     &trans                                &trans  &trans  &trans  &trans  &trans
+&to 0           &tog 3          &trans           &trans    &trans    &kp PG_UP                  &trans  &trans  &trans  &trans  &trans  &trans
+&mmv MOVE_UP    &trans          &trans           &kp UP    &trans    &kp PG_DN                  &trans  &trans  &trans  &trans  &trans  &trans
+&mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp LEFT  &kp DOWN  &kp RIGHT  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&mkp LCLK       &mkp RCLK       &trans           &trans    &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans          &trans           &trans    &trans    &trans                     &trans  &trans  &trans  &trans  &trans
             >;
         };
 
