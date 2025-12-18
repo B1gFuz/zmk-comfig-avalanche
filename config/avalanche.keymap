@@ -104,11 +104,11 @@
 
         MISSION {
             bindings = <
-&trans  &trans  &trans  &trans  &BORE   &bore                   &trans  &trans  &trans  &trans        &trans        &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans        &trans        &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &kp RC(UP)    &trans        &trans         &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RC(LEFT)  &kp RC(DOWN)  &kp RC(RIGHT)  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans        &trans
+&trans  &trans    &trans  &trans  &BORE   &bore                   &trans  &trans  &trans  &trans        &trans        &trans
+&trans  &trans    &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans        &trans        &trans
+&trans  &kp CAPS  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &kp RC(UP)    &trans        &trans         &trans  &trans
+&trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RC(LEFT)  &kp RC(DOWN)  &kp RC(RIGHT)  &trans  &trans
+        &trans    &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans        &trans
             >;
         };
     };
