@@ -30,11 +30,18 @@
     };
 
     macros {
-        BORE: BORE {
+        bore: BORE {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LT &kp LS(M) &kp LS(O) &kp LS(D) &kp MINUS &kp LS(D) &kp LS(I) &kp LS(A) &kp LS(M) &kp GT &kp LS(B) &kp LS(O) &kp LS(R) &kp LS(E) &kp RET>;
+            bindings = <&none &kp LT &kp M &kp O &kp D &kp MINUS &kp D &kp I &kp A &kp M &kp GT &kp B &kp O &kp R &kp E>;
             label = "BORE";
+        };
+
+        BORE: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LT &kp LS(M) &kp LS(O) &kp LS(D) &kp MINUS &kp LS(D) &kp LS(I) &kp LS(A) &kp LS(M) &kp GT &kp LS(B) &kp LS(O) &kp LS(R) &kp LS(E) &kp RET &kp RET>;
+            label = "NEW_MACRO";
         };
     };
 
@@ -97,7 +104,7 @@
 
         MISSION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &BORE                   &trans  &trans  &trans  &trans        &trans        &trans
+&trans  &trans  &trans  &trans  &BORE   &bore                   &trans  &trans  &trans  &trans        &trans        &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans        &trans        &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &kp RC(UP)    &trans        &trans         &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RC(LEFT)  &kp RC(DOWN)  &kp RC(RIGHT)  &trans  &trans
